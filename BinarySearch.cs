@@ -16,7 +16,7 @@ namespace CSES_Problems
         {
             int left = 0, right = arr.Length - 1;
 
-            while (left < right)
+            while (left <= right)
             {
                 int mid = left + (right - left) / 2;
                 if (arr[mid] == target)
