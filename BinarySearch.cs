@@ -14,8 +14,6 @@ namespace CSES_Problems
 
         static int binarySearch(int[] arr, int target)
         {
-            arr.Sort();
-
             int left = 0, right = arr.Length - 1;
 
             while (left < right)
